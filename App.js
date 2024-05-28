@@ -1,3 +1,6 @@
+import React from "react"
+import ReactDOM from "react-dom"
+
 //this is only one element
 const heading = React.createElement(
   "h1",
