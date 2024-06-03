@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "learning extra basic concepts of reactjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html"
   },
   "author": "Sarthak Singh",
   "license": "ISC",
