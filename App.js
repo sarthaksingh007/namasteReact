@@ -29,12 +29,15 @@ import ReactDOM from "react-dom";
 
 //component composition (in a one component adding more than 2 component)
 const Title = () => {
-  return <h1 id="heading">Hello world using ReactJs!!</h1>;
+  return <h1 id="heading">Hello world using ReactJs!! nananan</h1>;
 };
 
 const MainHeading = () => {
   return (
     <>
+    //how render the component
+      {Title()}
+      <Title></Title>
       <Title />
       <h1 id="heading">Hello world using ReactJs!! again</h1>;
     </>
@@ -42,4 +45,4 @@ const MainHeading = () => {
 };
 console.log(Title); //its basically returns the object.
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MainHeading/>);
+root.render(<MainHeading />);
