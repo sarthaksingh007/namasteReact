@@ -42,4 +42,4 @@ const MainHeading = () => {
 };
 console.log(Title); //its basically returns the object.
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(MainHeading);
+root.render(<MainHeading/>);
